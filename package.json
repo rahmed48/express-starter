@@ -1,0 +1,25 @@
+{
+  "name": "express-starter",
+  "version": "1.0.0",
+  "description": "Node Js Express server starter template",
+  "main": "index.ts",
+  "bin": {
+    "express-starter": "./bin/installer.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "template",
+    "starter",
+    "auth",
+    "JWT"
+  ],
+  "author": "Rahmad Alfian Syahputra",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6"
+  }
+}
